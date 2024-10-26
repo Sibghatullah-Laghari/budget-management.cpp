@@ -6,6 +6,8 @@ int main(){
 	
 	double income,expense,gro, ent, education,texpense,profit;
 	
+	//income=total income, expense= expense, gro=grocry, texpense= total expenses
+	
 	cout<<"Enter your total Income in this formate (1930000): \n";
 	
 	cin>>income;
