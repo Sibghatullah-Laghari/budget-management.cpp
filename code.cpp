@@ -4,22 +4,22 @@ using namespace std;
 
 int main(){
 	
-	double income,expense,gro, ent, education,texpense,profit;
+	double income,expense,groceries, entertainment, education,texpense,saving;
 	
-	cout<<"Enter your total Income in this formate (1930000): \n";
+	cout <<"Enter your total Income in this formate (1930000): ";
 	
-	cin>>income;
+	cin >> income;
 	
-	cout<<"Enter your expensis of grocries, entertanment, and education respectivly, and your total  expensis must be less than or equal to income:  "<<endl;
+	cout << "Enter your expenses of groceries, entertainment, and education respectively, and your total  expenses must be less than or equal to income:  "<<endl;
 	
-	cin>>gro>>ent>>education;
+	cin >> groceries >> entertainment >> education;
 	
 	
-	texpense=gro+ent+education;
+	texpense = groceries+entertainment+education;
 	
-	cout<<"Your total expense are: \n"<<texpense<<endl;
+	cout <<"Your total expense is: "<< texpense << endl;
 	
-	profit= income-texpense;
+	saving = income-texpense;
 	
-	cout<<"Your are saving: \n"<<profit;
+	cout <<"Your are saving: "<< saving << endl;
 }
