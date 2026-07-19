@@ -1,7 +1,7 @@
 /*
  * budget-management.cpp
  * Simple personal budget tracker.
- * Last updated: 2026-07-18
+ * Last updated: 2026-07-18.
  *
  * This program allows users to add income/expense transactions,
  * view the current balance, and list all recorded transactions.
