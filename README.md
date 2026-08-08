@@ -7,7 +7,7 @@
  * view the current balance, and list all recorded transactions.
  * Data is stored in memory (not persisted across runs).
  *
- * Future improvements:
+ * Future improvements:-
  *   - Save/load transactions to/from a file.
  *   - Categorize transactions (e.g., Food, Transport, Entertainment).
  */
@@ -113,3 +113,4 @@ void listTransactions() {
              << setw(10) << fixed << setprecision(2) << t.amount << endl;
     }
 }
+
